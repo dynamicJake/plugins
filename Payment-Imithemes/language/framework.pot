@@ -1,0 +1,684 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Payment Imithemes\n"
+"POT-Creation-Date: 2018-01-31 15:00+0530\n"
+"PO-Revision-Date: 2018-01-31 15:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: causes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: cause_functions.php:5 causes-payment.php:12
+msgid "Causes Payments"
+msgstr ""
+
+#: cause_functions.php:27 events-payment.php:12
+msgid "Events Payments"
+msgstr ""
+
+#: cause_functions.php:55 cause_functions.php:77
+msgid "Payments per page"
+msgstr ""
+
+#: cause_functions.php:92 shortcode.php:380
+msgid "Register"
+msgstr ""
+
+#: cause_functions.php:93 shortcode.php:380
+msgid "Pay For Event"
+msgstr ""
+
+#: cause_functions.php:184
+msgid "Registration for Event"
+msgstr ""
+
+#: cause_functions.php:373
+msgid "Select Sidebar"
+msgstr ""
+
+#: cause_functions.php:378
+msgid " Cause End Date"
+msgstr ""
+
+#: cause_functions.php:380
+msgid "Insert date of Cause end."
+msgstr ""
+
+#: cause_functions.php:391
+msgid "Cause Amount"
+msgstr ""
+
+#: cause_functions.php:393
+msgid "Insert total number of amount required for cause."
+msgstr ""
+
+#: cause_functions.php:397
+msgid "Cause Amount Received"
+msgstr ""
+
+#: cause_functions.php:399
+msgid "This is the total amount reveived for this cause."
+msgstr ""
+
+#: cause_functions.php:415 causes-payment.php:77 events-payment.php:78
+msgid "Status"
+msgstr ""
+
+#: cause_functions.php:416
+msgid "Amount Received"
+msgstr ""
+
+#: cause_functions.php:417 templates/single-causes.php:81
+msgid "Amount Needed"
+msgstr ""
+
+#: cause_functions.php:418
+msgid "Cause Closed"
+msgstr ""
+
+#: causes-payment.php:11
+msgid "Causes Payment"
+msgstr ""
+
+#: causes-payment.php:27 causes-payment.php:39 events-payment.php:27
+#: events-payment.php:39
+msgid "Completed"
+msgstr ""
+
+#: causes-payment.php:28 causes-payment.php:41 events-payment.php:28
+#: events-payment.php:41
+msgid "Incompleted"
+msgstr ""
+
+#: causes-payment.php:29 causes-payment.php:40 events-payment.php:29
+#: events-payment.php:40
+msgid "Pending"
+msgstr ""
+
+#: causes-payment.php:36 events-payment.php:36
+msgid "Update Payment Status for user"
+msgstr ""
+
+#: causes-payment.php:45 events-payment.php:45
+msgid "Update"
+msgstr ""
+
+#: causes-payment.php:46 events-payment.php:46
+msgid "Close"
+msgstr ""
+
+#: causes-payment.php:55
+msgid "No causes payments found."
+msgstr ""
+
+#: causes-payment.php:75 events-payment.php:76
+msgid "ID"
+msgstr ""
+
+#: causes-payment.php:76 events-payment.php:77
+msgid "Transaction Id"
+msgstr ""
+
+#: causes-payment.php:78
+msgid "Cause Name"
+msgstr ""
+
+#: causes-payment.php:79 events-payment.php:80
+msgid "Paid By"
+msgstr ""
+
+#: causes-payment.php:80 events-payment.php:81
+msgid "Date"
+msgstr ""
+
+#: causes-payment.php:81 events-payment.php:82
+msgid "Amount in "
+msgstr ""
+
+#: causes-type.php:10
+msgid "Causes Categories"
+msgstr ""
+
+#: causes-type.php:11
+msgid "Cause Category"
+msgstr ""
+
+#: causes-type.php:23
+msgid "Causes"
+msgstr ""
+
+#: causes-type.php:24
+msgid "Cause"
+msgstr ""
+
+#: causes-type.php:25
+msgid "Add New"
+msgstr ""
+
+#: causes-type.php:26
+msgid "Add New Cause"
+msgstr ""
+
+#: causes-type.php:27
+msgid "Edit Cause"
+msgstr ""
+
+#: causes-type.php:28
+msgid "New Cause"
+msgstr ""
+
+#: causes-type.php:29
+msgid "View Cause"
+msgstr ""
+
+#: causes-type.php:30
+msgid "Search Cause"
+msgstr ""
+
+#: causes-type.php:31
+msgid "No causes have been added yet"
+msgstr ""
+
+#: causes-type.php:32
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: causes.php:39
+msgid "Payment Options"
+msgstr ""
+
+#: causes.php:48
+msgid "Enable Auto Return"
+msgstr ""
+
+#: causes.php:49 causes.php:63
+msgid "Here are the steps to enable Auto Return in your account."
+msgstr ""
+
+#: causes.php:50
+msgid "Log into https://developer.paypal.com"
+msgstr ""
+
+#: causes.php:51
+msgid "Click Applications"
+msgstr ""
+
+#: causes.php:52
+msgid "Click accounts"
+msgstr ""
+
+#: causes.php:53
+msgid "Expand the account in question"
+msgstr ""
+
+#: causes.php:54
+msgid "Click Sandbox site"
+msgstr ""
+
+#: causes.php:55
+msgid "Login to the test account"
+msgstr ""
+
+#: causes.php:56
+msgid ""
+"Copy and paste \"https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-"
+"website-payments\" into your browser\n"
+"\t\t\t\t\t\t\t\t\t\tEnable Auto Return and click Save"
+msgstr ""
+
+#: causes.php:58
+msgid "Enter the Auto Return URL and click Save"
+msgstr ""
+
+#: causes.php:62
+msgid "Token ID"
+msgstr ""
+
+#: causes.php:67
+msgid "Templates"
+msgstr ""
+
+#: causes.php:68
+msgid "To get template ID, Follow Steps."
+msgstr ""
+
+#: causes.php:69
+msgid "Create a page with selecting content with sidebar"
+msgstr ""
+
+#: causes.php:70
+msgid "When you publish that page you will get id in dashboard url"
+msgstr ""
+
+#: causes.php:71
+msgid "Copy that ID and paste it here"
+msgstr ""
+
+#: causes.php:72
+msgid ""
+"You can follow this step for both templates(Causes List and Causes Grid)"
+msgstr ""
+
+#: causes.php:90
+msgid "Causes Options"
+msgstr ""
+
+#: causes.php:96
+msgid "Paypal Email Address:"
+msgstr ""
+
+#: causes.php:100
+msgid "Paypal Token ID"
+msgstr ""
+
+#: causes.php:104
+msgid "Paypal Currency Options"
+msgstr ""
+
+#: causes.php:108
+msgid "<option value=\"USD\""
+msgstr ""
+
+#: causes.php:108
+msgid ">US Dollar</option>"
+msgstr ""
+
+#: causes.php:109
+msgid "<option value=\"AUD\""
+msgstr ""
+
+#: causes.php:109
+msgid ">Australian Dollar</option>"
+msgstr ""
+
+#: causes.php:110
+msgid "<option value=\"BRL\""
+msgstr ""
+
+#: causes.php:110
+msgid ">Brazilian Real</option>"
+msgstr ""
+
+#: causes.php:111
+msgid "<option value=\"CAD\""
+msgstr ""
+
+#: causes.php:111
+msgid ">Canadian Dollar</option>"
+msgstr ""
+
+#: causes.php:112
+msgid "<option value=\"CZK\""
+msgstr ""
+
+#: causes.php:112
+msgid ">Czech Koruna</option>"
+msgstr ""
+
+#: causes.php:113
+msgid "<option value=\"DKK\""
+msgstr ""
+
+#: causes.php:113
+msgid ">Danish Krone</option>"
+msgstr ""
+
+#: causes.php:114
+msgid "<option value=\"EUR\""
+msgstr ""
+
+#: causes.php:114
+msgid ">Euro</option>"
+msgstr ""
+
+#: causes.php:115
+msgid "<option value=\"HKD\""
+msgstr ""
+
+#: causes.php:115
+msgid ">Hong Kong Dollar</option>"
+msgstr ""
+
+#: causes.php:116
+msgid "<option value=\"HUF\""
+msgstr ""
+
+#: causes.php:116
+msgid ">Hungarian Forint</option>"
+msgstr ""
+
+#: causes.php:117
+msgid "<option value=\"ILS\""
+msgstr ""
+
+#: causes.php:117
+msgid ">Israeli New Sheqel</option>"
+msgstr ""
+
+#: causes.php:118
+msgid "<option value=\"JPY\""
+msgstr ""
+
+#: causes.php:118
+msgid ">Japanese Yen</option>"
+msgstr ""
+
+#: causes.php:119
+msgid "<option value=\"MYR\""
+msgstr ""
+
+#: causes.php:119
+msgid ">Malaysian Ringgit</option>"
+msgstr ""
+
+#: causes.php:120
+msgid "<option value=\"MXN\""
+msgstr ""
+
+#: causes.php:120
+msgid ">Mexican Peso</option>"
+msgstr ""
+
+#: causes.php:121
+msgid "<option value=\"NOK\""
+msgstr ""
+
+#: causes.php:121
+msgid ">Norwegian Krone</option>"
+msgstr ""
+
+#: causes.php:122
+msgid "<option value=\"NZD\""
+msgstr ""
+
+#: causes.php:122
+msgid ">New Zealand Dollar</option>"
+msgstr ""
+
+#: causes.php:123
+msgid "<option value=\"PHP\""
+msgstr ""
+
+#: causes.php:123
+msgid ">Philippine Peso</option>"
+msgstr ""
+
+#: causes.php:124
+msgid "<option value=\"PLN\""
+msgstr ""
+
+#: causes.php:124
+msgid ">Polish Zloty</option>"
+msgstr ""
+
+#: causes.php:125
+msgid "<option value=\"GBP\""
+msgstr ""
+
+#: causes.php:125
+msgid ">Pound Sterling</option>"
+msgstr ""
+
+#: causes.php:126
+msgid "<option value=\"SGD\""
+msgstr ""
+
+#: causes.php:126
+msgid ">Singapore Dollar</option>"
+msgstr ""
+
+#: causes.php:127
+msgid "<option value=\"SEK\""
+msgstr ""
+
+#: causes.php:127
+msgid ">Swedish Krona</option>"
+msgstr ""
+
+#: causes.php:128
+msgid "<option value=\"CHF\""
+msgstr ""
+
+#: causes.php:128
+msgid ">Swiss Franc</option>"
+msgstr ""
+
+#: causes.php:129
+msgid "<option value=\"TWD\""
+msgstr ""
+
+#: causes.php:129
+msgid ">Taiwan New Dollar</option>"
+msgstr ""
+
+#: causes.php:130
+msgid "<option value=\"THB\""
+msgstr ""
+
+#: causes.php:130
+msgid ">Thai Baht</option>"
+msgstr ""
+
+#: causes.php:131
+msgid "<option value=\"TRY\""
+msgstr ""
+
+#: causes.php:131
+msgid ">Turkish Lira</option>"
+msgstr ""
+
+#: causes.php:137
+msgid "Paypal Payment Site"
+msgstr ""
+
+#: causes.php:141
+msgid "<option value=\"live\""
+msgstr ""
+
+#: causes.php:141
+msgid ">Live</option>"
+msgstr ""
+
+#: causes.php:142
+msgid "<option value=\"sandbox\""
+msgstr ""
+
+#: causes.php:142
+msgid ">Sandbox</option>"
+msgstr ""
+
+#: causes.php:147
+msgid "Causes Listing Template ID:"
+msgstr ""
+
+#: causes.php:151
+msgid "Causes Grid Template ID:"
+msgstr ""
+
+#: causes.php:155
+msgid "Donation Form Info:"
+msgstr ""
+
+#: causes.php:159
+msgid "Registration Form Info:"
+msgstr ""
+
+#: events-payment.php:11
+msgid "Event Payment"
+msgstr ""
+
+#: events-payment.php:55
+msgid "No events payments found."
+msgstr ""
+
+#: events-payment.php:79
+msgid "Event Name"
+msgstr ""
+
+#: events-payment.php:83
+msgid "Payment Status"
+msgstr ""
+
+#: shortcode.php:20
+msgid "Error! Please enter your PayPal email address in causes options page."
+msgstr ""
+
+#: shortcode.php:55
+msgid "How much would you like to donate?"
+msgstr ""
+
+#: shortcode.php:67
+msgid "Enter custom donation amount"
+msgstr ""
+
+#: shortcode.php:78
+msgid "First name (Required)"
+msgstr ""
+
+#: shortcode.php:82 shortcode.php:210
+msgid "Last name"
+msgstr ""
+
+#: shortcode.php:87 shortcode.php:217
+msgid "Your email (Required)"
+msgstr ""
+
+#: shortcode.php:90 shortcode.php:220
+msgid "Your phone"
+msgstr ""
+
+#: shortcode.php:95 shortcode.php:225
+msgid "Your Address"
+msgstr ""
+
+#: shortcode.php:98 shortcode.php:228
+msgid "Additional Notes"
+msgstr ""
+
+#: shortcode.php:118 templates/single-causes.php:103
+#: templates/taxonomy-causes-category.php:26
+#: templates/template-causes-grid.php:65 templates/template-causes-list.php:28
+msgid "Donate Now"
+msgstr ""
+
+#: shortcode.php:160
+msgid "Error! Please enter your PayPal email address in payment options page."
+msgstr ""
+
+#: shortcode.php:171 shortcode.php:172 shortcode.php:173
+msgid "All Booked"
+msgstr ""
+
+#: shortcode.php:206
+msgid "First name (Required)framework"
+msgstr ""
+
+#: shortcode.php:235
+msgid "Type"
+msgstr ""
+
+#: shortcode.php:236
+msgid "Available "
+msgstr ""
+
+#: shortcode.php:237
+msgid "Price"
+msgstr ""
+
+#: shortcode.php:238
+msgid "Quantity"
+msgstr ""
+
+#: shortcode.php:239
+msgid "Total"
+msgstr ""
+
+#: templates/single-causes.php:34
+msgid "Thanks for your contribution"
+msgstr ""
+
+#: templates/single-causes.php:49 templates/taxonomy-causes-category.php:36
+#: templates/template-causes-list.php:38
+msgid "No comments yet"
+msgstr ""
+
+#: templates/single-causes.php:49 templates/taxonomy-causes-category.php:36
+#: templates/template-causes-list.php:38
+msgid "Comments are off for this post"
+msgstr ""
+
+#: templates/single-causes.php:76
+msgid "Cause Progress"
+msgstr ""
+
+#: templates/single-causes.php:85
+msgid "Collected yet"
+msgstr ""
+
+#: templates/single-causes.php:88
+msgid "Percentile"
+msgstr ""
+
+#: templates/single-causes.php:100
+msgid "Days left to achieve target"
+msgstr ""
+
+#: templates/single-causes.php:101
+msgid "This cause has been completed."
+msgstr ""
+
+#: templates/single-causes.php:117 templates/taxonomy-causes-category.php:97
+#: templates/template-causes-grid.php:84 templates/template-causes-list.php:99
+msgid "Donate to: "
+msgstr ""
+
+#: templates/single-causes.php:123 templates/taxonomy-causes-category.php:103
+#: templates/template-causes-grid.php:90 templates/template-causes-list.php:105
+msgid "If you would prefer to call in your donation, please call 1800.785.876"
+msgstr ""
+
+#: templates/taxonomy-causes-category.php:57
+#: templates/template-causes-grid.php:47 templates/template-causes-list.php:59
+msgid "% Donated of "
+msgstr ""
+
+#: templates/taxonomy-causes-category.php:83
+#: templates/template-causes-grid.php:73 templates/template-causes-list.php:85
+msgid "There is no any causes yet. "
+msgstr ""
+
+#: templates/taxonomy-causes-category.php:127
+#: templates/template-causes-grid.php:111
+#: templates/template-causes-list.php:129
+msgid "Please activate \"Payment Imithemes\" plugin first. "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Payment Imithemes"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin adds causes functionality in native church theme along with "
+"payment options for paid events."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "IMITHEMES"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.imithemes.com"
+msgstr ""
