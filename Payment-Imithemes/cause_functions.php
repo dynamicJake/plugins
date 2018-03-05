@@ -117,6 +117,7 @@ if(!function_exists('imic_create_transaction_table')){
 				user_phone int(11) NOT NULL,
 				user_address varchar(20) NOT NULL,
 				user_notes varchar(255) NOT NULL,
+				user_zip varchar(20) NOT NULL,
 				date datetime NOT NULL,
 				UNIQUE KEY id (id)
 				) $charset_collate;";
@@ -139,13 +140,14 @@ function imic_event_grids() {
 	$phone = $_POST['phone'];
 	$address = $_POST['address'];
 	$notes = $_POST['notes'];
+	$zip = $_POST['zip'];
 	$postname = $_POST['posttype'];
 	$platinum = $_POST['platinum'];
 	$gold = $_POST['gold'];
 	$silver = $_POST['silver'];
 	global $wpdb;
 	$table_name = $wpdb->prefix . "imic_payment_transaction";
-	$sql = "INSERT INTO $table_name (post_name,transaction_id,cause_id,amount,status,user_name,user_lname,user_email,user_phone,user_address,user_notes,date) VALUES ('$postname','','$itemnumber', '$amount','$event_status','$name','$lastname','$email', '$phone','$address','$notes','$date')";
+	$sql = "INSERT INTO $table_name (post_name,transaction_id,cause_id,amount,status,user_name,user_lname,user_email,user_phone,user_address,user_notes,user_zip,date) VALUES ('$postname','','$itemnumber', '$amount','$event_status','$name','$lastname','$email', '$phone','$address','$notes','$zip','$date')";
 	require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 	dbDelta($sql);
 	$admin_email = get_option('admin_email');
@@ -233,6 +235,7 @@ function imic_cause_function() {
 	$output .= '<p>User Phone: '.$data[0]->user_phone.'</p>';
 	$output .= '<p>User Address: '.$data[0]->user_address.'</p>';
 	$output .= '<p>User Notes: '.$data[0]->user_notes.'</p>';
+	$output .= '<p>User Zip: '.$data[0]->user_zip.'</p>';
 	echo $output;
 	die();
 }

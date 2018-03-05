@@ -97,7 +97,12 @@ function causes_shortcode($args)
                         	<div class="col-md-6">
                         		<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Additional Notes','framework').'"></textarea>
                             </div>
-                       	</div>';
+						   </div>
+						   <div class="row">
+						   <div class="col-md-6">
+							   <textarea id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Zip','framework').'"></textarea>
+						   </div>
+						  </div>';
 	$output .= '<input type="hidden" name="rm" value="2">';
 	$output .= '<input type="hidden" name="amount" value="">';	
 	$output .= '<input type="hidden" name="cmd" value="_donations">';
@@ -227,7 +232,12 @@ $output .= '<input type="hidden" value="'.$normal_url.'" id="normal-url">';
                         	<div class="col-md-6">
                         		<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Additional Notes','framework').'"></textarea>
                             </div>
-                       	</div>';
+						   </div>
+						   <div class="row">
+						   <div class="col-md-6">
+							   <textarea id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Zip','framework').'"></textarea>
+						   </div>
+						  </div>';
 						if($event_multiple_tickets==1)
 						{
                         $output .= '<table width="100%" class="table-tickets">';
