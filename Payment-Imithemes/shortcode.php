@@ -103,7 +103,12 @@ function causes_shortcode($args)
 								<input id="city" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your city (Required)','framework').'"></input>
 							</div>
 							<div class="col-md-6">
-								<input id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('User notes','framework').'"></input>
+								<input id="state" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your state (Required)','framework').'"></input>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('User notes','framework').'"></textarea>
 							</div>
 						</div>';
 	$output .= '<input type="hidden" name="rm" value="2">';
@@ -241,9 +246,14 @@ $output .= '<input type="hidden" value="'.$normal_url.'" id="normal-url">';
 						   			<input id="city" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your city (Required)','framework').'"></input>
 					   			</div>
 								<div class="col-md-6">
-									<input id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('User notes','framework').'"></input>
+									<input id="state" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your state','framework').'"></input>
 								</div>
-						  </div>';
+						  </div>
+						<div class="row">
+					   		<div class="col-md-6">
+						   		<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('User notes','framework').'"></textarea>
+					   		</div>
+						</div>';
 						if($event_multiple_tickets==1)
 						{
                         $output .= '<table width="100%" class="table-tickets">';

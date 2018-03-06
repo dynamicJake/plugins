@@ -33,6 +33,7 @@ jQuery('.paypal-submit-form').submit(function(e) {
 	var $notes = jQuery("form#"+$formid+" #notes").val();
 	var $zip = jQuery("form#"+$formid+" #zip").val();
 	var $city = jQuery("form#"+$formid+" #city").val();
+	var $state = jQuery("form#"+$formid+" #state").val();
 	var $lastname = jQuery("form#"+$formid+" #lastname").val();
 	var platinum_ticket_select = jQuery("#platinum-ticket").val();
 	var gold_ticket_select = jQuery("#gold-ticket").val();
@@ -78,6 +79,10 @@ jQuery('.paypal-submit-form').submit(function(e) {
 		isValid = false;
 		jQuery('form#'+$formid+' #message').append("<div class=\"alert alert-error\">You must enter your city</div>");
 		return false;
+	} else if (!$state) {
+		isValid = false;
+		jQuery('form#'+$formid+' #message').append("<div class=\"alert alert-error\">You must enter your state</div>");
+		return false;
 	}
 	else 
 	{
@@ -111,6 +116,7 @@ jQuery('.paypal-submit-form').submit(function(e) {
 				notes: $notes,
 				zip: $zip,
 				city: $city,
+				state: $state,
 				posttype: $postname,
 				platinum: platinum_ticket_select,
 				gold: gold_ticket_select,
