@@ -1,1 +1,0 @@
-# plugins-gods-healing-hands
