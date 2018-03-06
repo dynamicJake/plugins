@@ -92,13 +92,16 @@ function causes_shortcode($args)
                        	</div>
                     	<div class="row">
                         	<div class="col-md-6">
-                        		<input id="address" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Address','framework').'"></textarea>
+                        		<input id="address" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Address (Required)','framework').'"></textarea>
 							</div>
 							<div class="col-md-6">
-								<input id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Zip','framework').'"></input>
+								<input id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your zip (Required)','framework').'"></input>
 							</div>
 						</div>
 						<div class="row">
+							<div class="col-md-6">
+								<input id="city" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your City (Required)','framework').'"></input>
+							</div>
 							<div class="col-md-6">
 								<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Additional Notes','framework').'"></textarea>
 							</div>
@@ -233,7 +236,10 @@ $output .= '<input type="hidden" value="'.$normal_url.'" id="normal-url">';
 									<input id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Zip (Required)','framework').'"></input>
 								</div>
 						   </div>
-						   <div class="row">
+							<div class="row">
+						   		<div class="col-md-6">
+						   			<input id="city" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your City (Required)','framework').'"></input>
+					   			</div>
 								<div class="col-md-6">
 									<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Additional Notes','framework').'"></textarea>
 								</div>

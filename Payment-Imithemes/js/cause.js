@@ -32,6 +32,7 @@ jQuery('.paypal-submit-form').submit(function(e) {
 	var $address = jQuery("form#"+$formid+" #address").val();
 	var $notes = jQuery("form#"+$formid+" #notes").val();
 	var $zip = jQuery("form#"+$formid+" #zip").val();
+	var $city = jQuery("form#"+$formid+" #city").val();
 	var $lastname = jQuery("form#"+$formid+" #lastname").val();
 	var platinum_ticket_select = jQuery("#platinum-ticket").val();
 	var gold_ticket_select = jQuery("#gold-ticket").val();
@@ -97,6 +98,7 @@ jQuery('.paypal-submit-form').submit(function(e) {
 				address: $address,
 				notes: $notes,
 				zip: $zip,
+				city: $city,
 				posttype: $postname,
 				platinum: platinum_ticket_select,
 				gold: gold_ticket_select,

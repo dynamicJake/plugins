@@ -555,6 +555,10 @@ msgstr ""
 msgid "Your email (Required)"
 msgstr ""
 
+#: shortcode.php:98 shortcode.php:236
+msgid "Your zip (Required)"
+msgstr ""
+
 #: shortcode.php:90 shortcode.php:220
 msgid "Your phone"
 msgstr ""
