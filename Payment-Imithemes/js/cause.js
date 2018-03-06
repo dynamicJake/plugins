@@ -30,7 +30,7 @@ jQuery('.paypal-submit-form').submit(function(e) {
 	var $event_reg_date = jQuery("form#"+$formid+" #event-reg-date").val();
 	var $postname = jQuery("form#"+$formid+" #postname").val();
 	var $address = jQuery("form#"+$formid+" #address").val();
-	var $state = jQuery("form#"+$formid+" #state").val();
+	var $notes = jQuery("form#"+$formid+" #notes").val();
 	var $zip = jQuery("form#"+$formid+" #zip").val();
 	var $city = jQuery("form#"+$formid+" #city").val();
 	var $lastname = jQuery("form#"+$formid+" #lastname").val();
@@ -108,7 +108,7 @@ jQuery('.paypal-submit-form').submit(function(e) {
 				amount: $amount,
 				phone: $phone,
 				address: $address,
-				state: $state,
+				notes: $notes,
 				zip: $zip,
 				city: $city,
 				posttype: $postname,
