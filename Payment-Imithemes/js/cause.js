@@ -66,6 +66,10 @@ jQuery('.paypal-submit-form').submit(function(e) {
 		isValid = false;
 		jQuery('form#'+$formid+' #message').append("<div class=\"alert alert-error\">You must enter your email</div>");
 		return false;
+	}  else if (!$zip) {
+		isValid = false;
+		jQuery('form#'+$formid+' #message').append("<div class=\"alert alert-error\">You must enter your zip code</div>");
+		return false;
 	} 
 	else 
 	{
