@@ -92,7 +92,7 @@ function causes_shortcode($args)
                        	</div>
                     	<div class="row">
                         	<div class="col-md-6">
-                        		<input id="address" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Address (Required)','framework').'"></textarea>
+                        		<input id="address" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your address (Required)','framework').'"></textarea>
 							</div>
 							<div class="col-md-6">
 								<input id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your zip (Required)','framework').'"></input>
@@ -100,10 +100,10 @@ function causes_shortcode($args)
 						</div>
 						<div class="row">
 							<div class="col-md-6">
-								<input id="city" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your City (Required)','framework').'"></input>
+								<input id="city" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your city (Required)','framework').'"></input>
 							</div>
 							<div class="col-md-6">
-								<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Additional Notes','framework').'"></textarea>
+								<input id="state" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your state','framework').'"></input>
 							</div>
 						</div>';
 	$output .= '<input type="hidden" name="rm" value="2">';
@@ -225,23 +225,23 @@ $output .= '<input type="hidden" value="'.$normal_url.'" id="normal-url">';
                         		<input type="text" value="'.$this_email.'" name="email" id="email" class="form-control" placeholder="'.esc_html__('Your email (Required)','framework').'">
                             </div>
                         	<div class="col-md-6">
-                        		<input id="phone" type="phone" name="phone" class="form-control" placeholder="'.esc_html__('Your phone','framework').'">
+                        		<input id="phone" type="phone" name="phone" class="form-control" placeholder="'.esc_html__('Your phone (Required)','framework').'">
                             </div>
                        	</div>
                     	<div class="row">
                         		<div class="col-md-6">
-                        			<input id="address" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Address (Required)','framework').'"></input>
+                        			<input id="address" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your address (Required)','framework').'"></input>
 								</div>
 								<div class="col-md-6">
-									<input id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Zip (Required)','framework').'"></input>
+									<input id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your zip (Required)','framework').'"></input>
 								</div>
 						   </div>
 							<div class="row">
 						   		<div class="col-md-6">
-						   			<input id="city" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your City (Required)','framework').'"></input>
+						   			<input id="city" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your city (Required)','framework').'"></input>
 					   			</div>
 								<div class="col-md-6">
-									<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Additional Notes','framework').'"></textarea>
+									<input id="state" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your state','framework').'"></input>
 								</div>
 						  </div>';
 						if($event_multiple_tickets==1)

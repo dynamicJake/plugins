@@ -30,7 +30,7 @@ jQuery('.paypal-submit-form').submit(function(e) {
 	var $event_reg_date = jQuery("form#"+$formid+" #event-reg-date").val();
 	var $postname = jQuery("form#"+$formid+" #postname").val();
 	var $address = jQuery("form#"+$formid+" #address").val();
-	var $notes = jQuery("form#"+$formid+" #notes").val();
+	var $state = jQuery("form#"+$formid+" #state").val();
 	var $zip = jQuery("form#"+$formid+" #zip").val();
 	var $city = jQuery("form#"+$formid+" #city").val();
 	var $lastname = jQuery("form#"+$formid+" #lastname").val();
@@ -70,7 +70,15 @@ jQuery('.paypal-submit-form').submit(function(e) {
 		isValid = false;
 		jQuery('form#'+$formid+' #message').append("<div class=\"alert alert-error\">You must enter your zip code</div>");
 		return false;
-	} 
+	} else if (!$address) {
+		isValid = false;
+		jQuery('form#'+$formid+' #message').append("<div class=\"alert alert-error\">You must enter your address</div>");
+		return false;
+	} else if (!$city) {
+		isValid = false;
+		jQuery('form#'+$formid+' #message').append("<div class=\"alert alert-error\">You must enter your city</div>");
+		return false;
+	}
 	else 
 	{
 			if(isValid!=false)
@@ -100,7 +108,7 @@ jQuery('.paypal-submit-form').submit(function(e) {
 				amount: $amount,
 				phone: $phone,
 				address: $address,
-				notes: $notes,
+				state: $state,
 				zip: $zip,
 				city: $city,
 				posttype: $postname,
