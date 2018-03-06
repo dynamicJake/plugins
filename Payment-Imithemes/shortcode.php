@@ -92,17 +92,17 @@ function causes_shortcode($args)
                        	</div>
                     	<div class="row">
                         	<div class="col-md-6">
-                        		<textarea id="address" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Address','framework').'"></textarea>
-                            </div>
-                        	<div class="col-md-6">
-                        		<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Additional Notes','framework').'"></textarea>
-                            </div>
-						   </div>
-						   <div class="row">
-						   <div class="col-md-6">
-							   <textarea id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Zip','framework').'"></textarea>
-						   </div>
-						  </div>';
+                        		<input id="address" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Address','framework').'"></textarea>
+							</div>
+							<div class="col-md-6">
+								<input id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Zip','framework').'"></input>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Additional Notes','framework').'"></textarea>
+							</div>
+						</div>';
 	$output .= '<input type="hidden" name="rm" value="2">';
 	$output .= '<input type="hidden" name="amount" value="">';	
 	$output .= '<input type="hidden" name="cmd" value="_donations">';
@@ -208,7 +208,7 @@ $output .= '<input type="hidden" value="'.$normal_url.'" id="normal-url">';
 	$output .= '
                     	<div class="row">
                         	<div class="col-md-6">
-                        		<input type="text" value="'.$this_actualname.'" id="username" name="fname" class="form-control" placeholder="'.esc_html__('First name (Required)'.'framework').'">
+                        		<input type="text" value="'.$this_actualname.'" id="username" name="fname" class="form-control" placeholder="'.esc_html__('First name (Required)','framework').'">
 								<input type="hidden" id="postname" name="postname" value="event">
                             </div>
                         	<div class="col-md-6">
@@ -226,17 +226,17 @@ $output .= '<input type="hidden" value="'.$normal_url.'" id="normal-url">';
                             </div>
                        	</div>
                     	<div class="row">
-                        	<div class="col-md-6">
-                        		<textarea id="address" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Address','framework').'"></textarea>
-                            </div>
-                        	<div class="col-md-6">
-                        		<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Additional Notes','framework').'"></textarea>
-                            </div>
+                        		<div class="col-md-6">
+                        			<input id="address" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Address (Required)','framework').'"></input>
+								</div>
+								<div class="col-md-6">
+									<input id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Zip (Required)','framework').'"></input>
+								</div>
 						   </div>
 						   <div class="row">
-						   <div class="col-md-6">
-							   <textarea id="zip" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Your Zip','framework').'"></textarea>
-						   </div>
+								<div class="col-md-6">
+									<textarea id="notes" rows="3" cols="5" class="form-control" placeholder="'.esc_html__('Additional Notes','framework').'"></textarea>
+								</div>
 						  </div>';
 						if($event_multiple_tickets==1)
 						{
